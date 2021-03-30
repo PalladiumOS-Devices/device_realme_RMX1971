@@ -14,11 +14,17 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
+#OFFICIAL
+PALLADIUM_BUILDTYPE := OFFICIAL
+TARGET_USES_BLUR := true
+
 #PALLADIUM-PROPS
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.palladiumdevice.cpu=SDM712 \
     ro.palladiumdevice.display=6.3 \
-    ro.palladiumdevice.displaytype=FULLHD+
+    ro.palladiumdevice.displaytype=FULLHD+ \
+    ro.palladiumdevice.battery=4035mAh \
+    ro.palladiumdevice.camera=48MP+8MP+2MP+2MP
 
 
 
