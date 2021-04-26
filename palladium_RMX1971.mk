@@ -24,7 +24,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.palladiumdevice.display=6.3 \
     ro.palladiumdevice.displaytype=FULLHD+ \
     ro.palladiumdevice.battery=4035mAh \
-    ro.palladiumdevice.camera=48MP+8MP+2MP+2MP
+    ro.palladiumdevice.camera=48MP+8MP+2MP+2MP \
+    ro.palladiumdevice.maintainer=goshawk22 \
 
 
 
