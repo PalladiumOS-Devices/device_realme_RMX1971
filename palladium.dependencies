@@ -1,13 +1,19 @@
 [
     {
+        "remote": "github",
+        "repository": "kdrag0n/proton-clang",
+        "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
+        "branch": "master"
+    },
+    {
         "repository":   "device_realme_sdm710-common",
         "target_path":  "device/realme/sdm710-common",
-        "branch":       "eleven"
+        "branch":       "11"
     },
     {
         "repository":   "kernel_realme_RMX1971",
         "target_path":  "kernel/realme/RMX1971",
-        "branch":       "eleven"
+        "branch":       "11"
     },
     {
         "repository":   "MadhavSaladi/vendor_realme_sdm710-common",
