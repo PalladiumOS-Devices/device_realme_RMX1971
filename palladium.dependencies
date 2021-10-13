@@ -10,7 +10,7 @@
         "branch":       "11"
     },
     {
-        "repository":   "MadhavSaladi/vendor_realme_sdm710-common",
+        "repository":   "goshawk22/android_vendor_realme_sdm710-common",
         "target_path":  "vendor/realme/sdm710-common",
         "branch":       "eleven",
         "remote":       "gitlab"
